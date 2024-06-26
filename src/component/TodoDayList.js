@@ -32,7 +32,7 @@ export default function TodoDayList() {
       <table>
         <tbody>
           {todos.map((todo) => (
-            <List todo={todo} key={todo.id} />
+            <List todo={todo} key={todo.id} day={day} />
           ))}
         </tbody>
       </table>

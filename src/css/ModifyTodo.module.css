@@ -1,0 +1,22 @@
+.modify {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.modify input {
+  width: 80%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size: 20px;
+}
+
+.btn_md {
+  padding: 5px;
+  height: 80%;
+}

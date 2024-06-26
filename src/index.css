@@ -74,16 +74,19 @@ table {
   border-collapse: collapse;
   width: 100%;
 }
-table td {
-  width: 25%;
-  height: 70px;
+table td,
+th {
   border: 1px solid #ccc;
   text-align: center;
   font-size: 26px;
+  height: 70px;
 }
 
 table td:first-child {
-  width: 10%;
+  width: 5%;
+}
+table td:nth-child(2) {
+  width: 70%;
 }
 
 .off td {
