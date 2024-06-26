@@ -6,12 +6,12 @@ export default function Header() {
         <Link to="/">Todo List</Link>
       </h1>
       <div className="menu">
-        <a href="#x" className="link">
+        <Link to="create_list" className="link">
           할 일 추가
-        </a>
-        <a href="#x" className="link">
+        </Link>
+        <Link to="create_day" className="link">
           day 추가
-        </a>
+        </Link>
       </div>
     </div>
   );

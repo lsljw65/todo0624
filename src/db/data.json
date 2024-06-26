@@ -1,44 +1,69 @@
 {
   "days": [
-    { "id": 1, "day": 1 },
-    { "id": 2, "day": 2 },
-    { "id": 3, "day": 3 }
+    {
+      "id": "1",
+      "day": 1
+    },
+    {
+      "id": "2",
+      "day": 2
+    },
+    {
+      "id": "3",
+      "day": 3
+    },
+    {
+      "id": "327a",
+      "day": 4
+    }
   ],
   "todos": [
     {
-      "id": 1,
+      "id": "1",
       "day": 1,
       "title": "책을 읽음",
-      "isDone": true
-    },
-    {
-      "id": 2,
-      "day": 1,
-      "title": "포토샵",
       "isDone": false
     },
     {
-      "id": 3,
+      "id": "2",
+      "day": 1,
+      "title": "영상촬영",
+      "isDone": false
+    },
+    {
+      "id": "3",
       "day": 2,
       "title": "유튜브 녹화",
       "isDone": false
     },
     {
-      "id": 4,
+      "id": "4",
       "day": 2,
-      "title": "일러스트레이터",
+      "title": "포토샵",
       "isDone": false
     },
     {
-      "id": 5,
+      "id": "5",
       "day": 3,
       "title": "HTML",
       "isDone": false
     },
     {
-      "id": 6,
+      "id": "6",
       "day": 3,
       "title": "Javascript",
+      "isDone": false
+    },
+    {
+      "id": "63a1",
+      "day": "4",
+      "title": "Vlog 만들기",
+      "isDone": false
+    },
+    {
+      "id": "8848",
+      "day": "2",
+      "title": "TV",
       "isDone": false
     }
   ]

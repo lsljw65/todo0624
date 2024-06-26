@@ -1,4 +1,6 @@
 import "./App.css";
+import CreateDay from "./component/CreateDay";
+import CreateList from "./component/CreateList";
 import EmptyPage from "./component/EmptyPage";
 import Header from "./component/Header";
 import TodoDayList from "./component/TodoDayList";
@@ -12,6 +14,8 @@ function App() {
         <Routes>
           <Route path="/" element={<TodoDays />} />
           <Route path="/todoList/:day" element={<TodoDayList />} />
+          <Route path="/create_list" element={<CreateList />} />
+          <Route path="/create_day" element={<CreateDay />} />
           <Route path="/*" element={<EmptyPage />} />
         </Routes>
       </div>
