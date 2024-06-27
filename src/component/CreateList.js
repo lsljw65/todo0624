@@ -18,7 +18,7 @@ export default function CreateList() {
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          day: dayRef.current.value,
+          day: Number(dayRef.current.value),
           title: titleRef.current.value,
           isDone: false,
         }),

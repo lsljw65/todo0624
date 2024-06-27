@@ -49,7 +49,6 @@ export default function List({ todo: _todo, day }) {
       }),
     }).then((res) => {
       if (res.ok) {
-        alert(`수정이 완료되었습니다.`);
         setTodo({ id: id, title: mdTitle });
         console.log(mdTitle);
         history(`/todoList/${day}`);

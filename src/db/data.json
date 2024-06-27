@@ -15,13 +15,9 @@
   ],
   "todos": [
     {
-      "id": "1",
-      "title": "666666"
-    },
-    {
       "id": "2",
       "day": 1,
-      "title": "영상촬영",
+      "title": "영상 및 녹음",
       "isDone": false
     },
     {
@@ -46,6 +42,12 @@
       "id": "6",
       "day": 3,
       "title": "Javascript",
+      "isDone": false
+    },
+    {
+      "id": "07f2",
+      "day": 1,
+      "title": "일러스트레이터",
       "isDone": false
     }
   ]
