@@ -34,6 +34,9 @@ export default function List({ todo: _todo, day }) {
 
   //   console.log(day);
   function modify() {
+    const mdTitle = titleRef.current.value;
+    const id = todo.id;
+    console.log(mdTitle);
     // console.log(day);
     fetch(`http://localhost:3001/todos/${todo.id}`, {
       method: "PUT",
@@ -42,12 +45,14 @@ export default function List({ todo: _todo, day }) {
       },
       body: JSON.stringify({
         ...todo,
-        title: titleRef.current.value,
+        title: mdTitle,
       }),
     }).then((res) => {
       if (res.ok) {
         alert(`수정이 완료되었습니다.`);
-        history(`/todoList/${1}`);
+        setTodo({ id: id, title: mdTitle });
+        console.log(mdTitle);
+        history(`/todoList/${day}`);
       }
     });
   }
@@ -78,7 +83,9 @@ export default function List({ todo: _todo, day }) {
         ) : (
           <div className={styles.modify}>
             <input type="text" placeholder="할일을 입력하세요" ref={titleRef} />
-            <button className={styles.btn_md}>수정 취소</button>
+            <button className={styles.btn_md} onClick={toggleShow}>
+              수정 취소
+            </button>
           </div>
         )}
       </td>

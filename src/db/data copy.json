@@ -16,7 +16,9 @@
   "todos": [
     {
       "id": "1",
-      "title": "666666"
+      "day": 1,
+      "title": "444444",
+      "isDone": false
     },
     {
       "id": "2",
